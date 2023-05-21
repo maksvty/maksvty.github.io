@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Горячее",
+      "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/gorjachee-medium-70748e36de2742a29c08020201f2e2c8.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Завтраки",
+      "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/zavtraki-medium-dc993d3973fc49d193b5a3bdefdea6af.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Пицца",
+      "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca-medium-73a3783176b44280ad9912da75b72da8.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Пироги",
+      "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/pirogi-medium-d72c829b0b1e49fe97fb99f279a693ed.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Суши и роллы",
+      "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly-medium-987c4a11a73f4f5baaef7570345ef147.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Онигири",
+      "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/onigiri-medium-475acdac460d4dfa83f840eb6bf46248.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Бургеры",
+      "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/stritfud-medium-38e1cd0772b1434a9473f876edc8bc42.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Закуски",
+      "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/zakuski-medium-38fd72dfb831426c8afa0b09845f6972.jpeg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "login": "max",
+      "password": "max"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ролл Филадельфия",
+      "price": 429,
+      "weight": 240,
+      "image": "https://user36270.clients-cdnnow.ru/1676458216323-285x198.webp",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Ролл Филадельфия",
+      "price": 429,
+      "weight": 240,
+      "image": "https://user36270.clients-cdnnow.ru/1676458216323-285x198.webp",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Ролл Филадельфия",
+      "price": 429,
+      "weight": 240,
+      "image": "https://user36270.clients-cdnnow.ru/1676458216323-285x198.webp",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Ролл Филадельфия",
+      "price": 429,
+      "weight": 240,
+      "image": "https://user36270.clients-cdnnow.ru/1676458216323-285x198.webp",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Ролл Филадельфия",
+      "price": 429,
+      "weight": 240,
+      "image": "https://user36270.clients-cdnnow.ru/1676458216323-285x198.webp",
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "name": "Ролл Филадельфия",
+      "price": 429,
+      "weight": 240,
+      "image": "https://user36270.clients-cdnnow.ru/1676458216323-285x198.webp",
+      "categoryId": 1
+    },
+    {
+      "id": 7,
+      "name": "Ролл Филадельфия",
+      "price": 429,
+      "weight": 240,
+      "image": "https://user36270.clients-cdnnow.ru/1676458216323-285x198.webp",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "name": "Ролл Филадельфия",
+      "price": 429,
+      "weight": 240,
+      "image": "https://user36270.clients-cdnnow.ru/1676458216323-285x198.webp",
+      "categoryId": 1
+    }
+  ],
+  "baskets": [
+    {
+      "productId": 1,
+      "name": "Ролл Филадельфия",
+      "userId": 1,
+      "quantity": 2,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.product {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.img {
+  border-radius: 8px 8px 0 0;
+}
+
+.info {
+  padding: 10px;
+}
+
+.name {
+  margin-bottom: 10px;
+
+  font-size: 18px;
+}
+
+.buy_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 500;
+}
