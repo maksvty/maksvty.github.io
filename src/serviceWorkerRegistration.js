@@ -56,6 +56,7 @@ function registerValidSW(swUrl, config) {
   navigator.serviceWorker
     .register(swUrl)
     .then((registration) => {
+      console.log(registration);
       registration.onupdatefound = () => {
         const installingWorker = registration.installing;
         if (installingWorker == null) {
@@ -87,6 +88,9 @@ function registerValidSW(swUrl, config) {
                 config.onSuccess(registration);
               }
             }
+          }
+          if (installingWorker.state === 'fetch') {
+            console.log(fetch, installingWorker, swUrl);
           }
         };
       };

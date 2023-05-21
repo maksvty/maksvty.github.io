@@ -18,7 +18,7 @@ const Router = () => {
             <Route element={<Menu />} path='/menu' />
             <Route element={<CategoryPage />} path='/menu/:categoryId' />
 
-            <Route element={<div>Not found</div>} path='*' />
+            <Route element={<Home />} path='*' />
           </Routes>
         </main>
         <MainMenu />
