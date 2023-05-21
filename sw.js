@@ -1,4 +1,4 @@
-let staticCacheData = 'static-cache-v1';
+/*let staticCacheData = 'static-cache-v1';
 let dynamicCacheData = 'dynamic-cache-v1';
 
 const assetsUrls = [
@@ -57,4 +57,4 @@ async function networkFirst(request) {
     const cached = await cache.match(request);
     return cached ?? await caches.match('/offline.html');
   }
-}
+}*/
